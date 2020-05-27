@@ -1,0 +1,30 @@
+/*********************** Global Variables *****************/
+
+:root {
+    --pink: #c845aa;
+    --purple: #770ddb;
+    --lg: linear-gradient(90deg, var(--purple), var(--pink))
+}
+
+/************************ General *************************/
+
+.theme-bg {
+    background: var(--lg);
+}
+
+.theme-font {
+    font-family: 'Roboto Slab';
+}
+
+.transparent-btn {
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.transparent-btn:hover {
+    background-color: #fff;
+}
+
+.font-color {
+    color: var(--lg);
+}
